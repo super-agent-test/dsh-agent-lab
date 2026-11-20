@@ -205,10 +205,10 @@ def detect_divergence(records: List[Dict], lookback: int = 60) -> Optional[Tuple
 
 
 def main():
-    print(f"# 期货主力连续合约 MACD 背离分析")
+    print("# 期货主力连续合约 MACD 背离分析")
     print(f"# 分析时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"# MACD 参数: (12, 26, 9)")
-    print(f"# 数据源: 新浪期货日线")
+    print("# MACD 参数: (12, 26, 9)")
+    print("# 数据源: 新浪期货日线")
     print()
 
     results = []
