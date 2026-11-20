@@ -1,0 +1,12 @@
+[importlinter]
+root_packages =
+    firstproject
+include_external_packages = True
+
+[importlinter:contract:standalone-script]
+name = firstproject stays independent of the standalone script
+type = forbidden
+source_modules =
+    firstproject
+forbidden_modules =
+    futures_divergence
